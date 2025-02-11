@@ -88,3 +88,5 @@ O comando é usado para navegar entre diretórios no sistema de arquivos.
 ```cd diretorio``` para ir para um diretório especifico
 
 ```cd ..``` para voltar um diretório
+
+```cd \``` para voltar o diretório inicial
