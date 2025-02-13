@@ -2,6 +2,11 @@
 
 ![Batch](https://i.ytimg.com/vi/MLJRbvDXZUQ/maxresdefault.jpg)
 
+---
+## O que é?
+
+O _cmd_ (Prompt de Comando) é uma interface de linha de comando do Windows que permite executar comandos diretamente, proporcionando maior controle sobre o sistema operacional. _Batch_ refere-se à execução de múltiplos comandos de uma só vez, sem intervenção manual contínua, ideal para tarefas repetitivas. Utilizando cmd, scripts batch podem ser criados para automatizar processos, tornando a administração do sistema mais eficiente. Ambos são ferramentas poderosas para usuários que buscam maximizar o controle e a automação no ambiente Windows.
+
 ## Comandos
 
 ### 1. ___Mkdir___ - Criar Diretório
@@ -89,4 +94,13 @@ O comando é usado para navegar entre diretórios no sistema de arquivos.
 
 ```cd ..``` para voltar um diretório
 
-```cd \``` para voltar o diretório inicial
+```cd \``` para voltar para o diretório inicial
+
+---
+
+### 10. ___Cls___ - Apagar historico do Cmd
+O comando apagará todos os comandos previamente executados.
+
+#### Exemplo:
+
+```cls``` para apagar o historico de comandos
