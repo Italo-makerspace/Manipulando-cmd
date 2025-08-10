@@ -1,106 +1,96 @@
-# Manipular_cmd
+**CMD Manipulation**
+====================
 
-![Batch](https://i.ytimg.com/vi/MLJRbvDXZUQ/maxresdefault.jpg)
+![](<https://i.ytimg.com/vi/MLJRbvDXZUQ/maxresdefault.jpg>)
 
----
-## O que é?
+What is it?
+-----------
 
-O _cmd_ (Prompt de Comando) é uma interface de linha de comando do Windows que permite executar comandos diretamente, proporcionando maior controle sobre o sistema operacional. _Batch_ refere-se à execução de múltiplos comandos de uma só vez, sem intervenção manual contínua, ideal para tarefas repetitivas. Utilizando cmd, scripts batch podem ser criados para automatizar processos, tornando a administração do sistema mais eficiente. Ambos são ferramentas poderosas para usuários que buscam maximizar o controle e a automação no ambiente Windows.
+The **CMD** (Command Prompt) is a command-line interface in Windows that allows you to execute commands directly, providing greater control over the operating system. **Batch** refers to the execution of multiple commands at once, without continuous manual intervention, which is ideal for repetitive tasks. Using CMD, batch scripts can be created to automate processes, making system administration more efficient. Both are powerful tools for users seeking to maximize control and automation within the Windows environment.
 
-## Comandos
+Commands
+--------
 
-### 1. ___Mkdir___ - Criar Diretório
-Esse comando é usado para criar um novo diretório (pasta) no sistema de arquivos.
+### 1\. ***Mkdir*** - Create Directory
 
-#### Exemplo:
+This command is used to create a new directory (folder) in the file system.
 
-```mkdir novo_diretorio```
+#### Example:
 
----
+`mkdir new_directory`
 
-### 2. ___Rmdir___ - Remover Diretório Vazio
-Esse comando remove um diretório vazio. Se o diretório contiver arquivos ou outros diretórios, o comando falhará.
+### 2\. ***Rmdir*** - Remove Directory
 
-#### Exemplo:
+This command removes a directory. By default, it only removes empty directories. To remove a directory that contains files and subdirectories, you must use the `/s` switch.
 
-```rmdir novo_diretorio```
+#### Example:
 
-```rmdir -s novo_diretorio ```
+`rmdir new_directory`rmdir /s new_directory```
 
----
+### 3\. ***Echo*** - Create or Display Files
 
-### 3. ___Echo___ - Criar ou Exibir Arquivos
-O comando é utilizado para exibir texto no terminal ou redirecionar essa saída para criar arquivos.
+This command is used to display text in the terminal or redirect that output to create or append to files.
 
-#### Exemplo:
+#### Example:
 
-```echo "Este é o conteúdo do arquivo" > arquivo.txt```
+`echo "This is the file's content" > file.txt`echo "More content" >> file.txt```
 
-```echo "Mais conteúdo" >> arquivo.txt```
+### 4\. ***Del*** - Remove Files
 
----
+This command is used to delete one or more files.
 
-### 4. ___Del___ - Remover Arquivos
-O comando é utilizado para excluir arquivos
+#### Example:
 
-#### Exemplo:
+`del file.txt`
 
-```del arquivo.txt```
+### 5\. ***Copy*** - Copy Files or Directories
 
----
+This command is used to copy files or directories from one location to another.
 
-### 5. ___Copy___ - Copiar Arquivos ou Diretórios
-O comando serve para copiar arquivos ou diretórios de um local para outro.
+#### Example:
 
-#### Exemplo:
+`copy file.txt new_directory/`
 
-```copy arquivo.txt novo_diretorio/```
+### 6\. ***Move*** - Move Files
 
----
+This command can be used to move files between directories.
 
-### 6. ___Move___ - Mover Arquivos
-O comando pode ser usado para mover arquivos entre diretórios
+#### Example:
 
-#### Exemplo:
+`move directory\file.txt directory_2`
 
-```move diretorio\arquivo.txt diretorio_2```
+### 7\. ***Rename*** - Rename Files
 
----
+This command is used to rename files.
 
-### 7. ___Rename___ - Renomear Arquivos
-O comando é usado para renomear arquivos
+#### Example:
 
-#### Exemplo:
+`rename file.txt file2.txt`
 
-```rename arquivo.txt arquivo2.txt```
+### 8\. ***Type*** - Display the Content of a File
 
----
+This command is used in Windows to display the content of a text file in the terminal.
 
-### 8. ___Type___ - Exibir o Conteúdo de um Arquivo 
-O comando é usado no Windows para exibir o conteúdo de um arquivo de texto no terminal.
+#### Example:
 
-#### Exemplo:
+`type file.txt`
 
-```type arquivo.txt```
+### 9\. ***Cd*** - Change Directory
 
----
+This command is used to navigate between directories in the file system.
 
-### 9. ___Cd___ - Mover-se pelos diretórios  
-O comando é usado para navegar entre diretórios no sistema de arquivos.
+#### Example:
 
-#### Exemplo:
+`cd directory` to navigate to a specific directory
 
-```cd diretorio``` para ir para um diretório especifico
+`cd ..` to go back one directory
 
-```cd ..``` para voltar um diretório
+`cd \` to return to the root directory
 
-```cd \``` para voltar para o diretório inicial
+### 10\. ***Cls*** - Clear Screen
 
----
+This command will clear all previously displayed text from the command prompt window.
 
-### 10. ___Cls___ - Apagar historico do Cmd
-O comando apagará todos os comandos previamente executados.
+#### Example:
 
-#### Exemplo:
-
-```cls``` para apagar o historico de comandos
+`cls` to clear the command screen
